@@ -16,12 +16,7 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "bugs": {
-    "url": "https://github.com/atom/piatto-light/issues"
-  },
-  "homepage": "https://github.com/atom/piatto-light#readme",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "url": "https://github.com/kovv/piatto-light/issues"
   },
   "author": "Ilya Kovalenko"
 }
