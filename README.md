@@ -14,6 +14,6 @@ Originally converted from the [Sublime Text theme](https://github.com/samuelrafo
 
 ### JAVASCPIRT
 
-![piatto-light](https://raw.githubusercontent.com/kovv/piatto-light/master/images/javascript.png)
+![piatto-light](https://raw.githubusercontent.com/kovv/piatto-light/master/images/js.png)
 
 > The font used in the screenshot is Ubuntu Mono.
