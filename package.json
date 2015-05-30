@@ -4,20 +4,12 @@
   "version": "0.1.0",
   "description": "A clean light syntax theme",
   "keywords": [
-    "syntax",
-    "theme",
-    "light"
+    "light",
+    "syntax"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kovv/piatto-light"
-  },
+  "repository": "https://github.com/kovv/piatto-light",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/kovv/piatto-light/issues"
-  },
-  "author": "Ilya Kovalenko"
+  }
 }
