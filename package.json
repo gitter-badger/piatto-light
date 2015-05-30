@@ -1,0 +1,27 @@
+{
+  "name": "piatto-light",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A clean light syntax theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/piatto-light.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/atom/piatto-light/issues"
+  },
+  "homepage": "https://github.com/atom/piatto-light#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya Kovalenko"
+}
