@@ -1,4 +1,4 @@
-# piatto-light theme
+## Piatto Light syntax theme
 
 A clean light syntax theme.
 
