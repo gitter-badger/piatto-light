@@ -203,7 +203,27 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .punctuation.definition.tag {
+// different colors for every heading
+
+.markup.heading-1, .markup.heading-1 > .marker {
+  color: @pink;
+}
+.markup.heading-2, .markup.heading-2 > .marker  {
+  color: @dark-pink;
+}
+.markup.heading-3, .markup.heading-3 > .marker  {
   color: @blue;
+}
+.markup.heading-4, .markup.heading-4 > .marker  {
+  color: @dark-blue;
+  font-weight: normal;
+}
+.markup.heading-5, .markup.heading-5 > .marker  {
+  color: @dark-grey;
+}
+.markup.heading-6, .markup.heading-6 > .marker  {
+  color: @dark-grey;
+  font-weight: normal;
 }
 
 // @media in css
