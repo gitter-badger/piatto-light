@@ -1,8 +1,10 @@
-## Piatto Light syntax theme
+# Piatto Light syntax theme
 
 A clean light syntax theme.
 
 Originally converted from the [Sublime Text theme](https://github.com/samuelrafo/piatto) made by [samuelrafo](https://github.com/samuelrafo).
+
+## Screenshots
 
 ### HTML
 
@@ -17,3 +19,13 @@ Originally converted from the [Sublime Text theme](https://github.com/samuelrafo
 ![piatto-light](https://raw.githubusercontent.com/kovv/piatto-light/master/images/js.png)
 
 > The font used in the screenshot is Ubuntu Mono.
+
+## Installation
+
+Run the following command:
+
+```sh
+apm install piatto-light
+```
+
+Then go to `Atom > Preferences > Themes` and in the `Syntax Themes` dropdown, select `Piatto Light` from the list.
