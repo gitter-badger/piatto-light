@@ -1,5 +1,9 @@
 @import "syntax-variables";
 
+// ---------------
+//     EDITOR
+// ---------------
+
 atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
@@ -51,6 +55,11 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
   background-color: @dark-white;
 }
+
+
+// ---------------
+//     BASICS
+// ---------------
 
 .text.html.basic {
   color: @light-black;
@@ -142,6 +151,11 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   background-color: @violet;
 }
 
+
+// ---------------
+//      HTML
+// ---------------
+
 .meta.tag.sgml.html, .entity.name.tag.script.htmlstring.quoted.double.doctype.identifiers-and-DTDs.html, .source.css.embedded.html .string.quoted.double.html {
   color: @blue;
 }
@@ -150,15 +164,28 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @black;
 }
 
+
+// ---------------
+//   CSS & LESS
+// ---------------
+
 // @media in blue
 .media.css, .media.css > .keyword {
   color: @blue;
   font-weight: bold;
 }
+
 // hightlight less vars
 .variable.less {
   background-color: fade(@green, 10%);
   font-style: italic;
+}
+
+
+// ---------------
+//    MARKDOWN
+// ---------------
+
 .markup.deleted {
   color: @dark-pink;
 }
@@ -197,12 +224,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @green;
 }
 
-.meta.separator {
-  color: @light-grey;
-  background-color: fade(@light-grey, 10%);
-}
 
-.punctuation.definition.tag {
 // different colors for every heading
 
 .markup.heading-1, .markup.heading-1 > .marker {
@@ -226,20 +248,13 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   font-weight: normal;
 }
 
-// @media in css
-.media.css, .media.css > .keyword {
-  color: @blue;
-  font-weight: bold;
+
 // blue link, grey punctuation
 
 .link > .punctuation {
   color: @grey;
 }
 
-// less vars
-.variable.less {
-  background-color: fade(@green, 10%);
-  font-style: italic;
 .markup.underline.link {
   color: @dark-blue;
 }
