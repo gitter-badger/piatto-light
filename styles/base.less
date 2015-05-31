@@ -230,12 +230,21 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 .media.css, .media.css > .keyword {
   color: @blue;
   font-weight: bold;
+// blue link, grey punctuation
+
+.link > .punctuation {
+  color: @grey;
 }
 
 // less vars
 .variable.less {
   background-color: fade(@green, 10%);
   font-style: italic;
+.markup.underline.link {
+  color: @dark-blue;
+}
+
+
 // highlight fenced code blocks
 
 .markup .support {
