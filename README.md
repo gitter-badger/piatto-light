@@ -27,6 +27,6 @@ Run the following command:
 ```sh
 apm install piatto-light
 ```
-Alternatively open _Settings > Install_, set the filter to _Themes_ and search for `piatto-light`.
+Alternatively open `Settings > Install_`, set the filter to `Themes` and search for `piatto-light`.
 
 Then go to `Atom > Preferences > Themes` and in the `Syntax Themes` dropdown, select `Piatto Light` from the list.
