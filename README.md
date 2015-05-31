@@ -1,5 +1,7 @@
 # Piatto Light syntax theme
 
+[![Join the chat at https://gitter.im/kovv/piatto-light](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kovv/piatto-light?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A clean light syntax theme.
 
 Originally converted from the [Sublime Text theme](https://github.com/samuelrafo/piatto) made by [samuelrafo](https://github.com/samuelrafo).
