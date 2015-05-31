@@ -236,4 +236,16 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 .variable.less {
   background-color: fade(@green, 10%);
   font-style: italic;
+// highlight fenced code blocks
+
+.markup .support {
+  color: @grey;
+}
+
+.markup.code > .source {
+  background-color: fade(@dark-blue, 10%);
+}
+
+.markup.code > .source > .support {
+  background-color: @white;
 }
